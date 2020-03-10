@@ -73,6 +73,10 @@ String hello(Map<String, Object> model) {
 
 
 
+@RequestMapping("/test")
+String test(){
+  return "test";
+}
 
   
 
