@@ -62,6 +62,12 @@ public class Main {
   }
 
 
+  @RequestMapping("/kopia")
+  String kopia() {
+    return "kopia";
+  }
+
+
 
 @RequestMapping("/hello")
 String hello(Map<String, Object> model) {
