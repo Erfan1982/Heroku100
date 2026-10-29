@@ -9,3 +9,11 @@ docs/tmp/
 docs/java-getting-started/
 docs/deploying-spring-boot-apps/
 src/main/resources/templates/kopia.html
+
+#Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
